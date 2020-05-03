@@ -3,7 +3,7 @@ package com.wiryatech.mynotesapp.db
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.wiryatech.mynotesapp.db.DatabaseContract.*
+import com.wiryatech.mynotesapp.db.DatabaseContract.NoteColumns
 import com.wiryatech.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TABLE_NAME
 
 internal class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null,DATABASE_VERSION) {

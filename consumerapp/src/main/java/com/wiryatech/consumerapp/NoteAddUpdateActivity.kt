@@ -1,19 +1,19 @@
-package com.wiryatech.mynotesapp
+package com.wiryatech.consumerapp
 
 import android.content.ContentValues
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.wiryatech.mynotesapp.db.DatabaseContract
-import com.wiryatech.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import com.wiryatech.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
-import com.wiryatech.mynotesapp.entity.Note
-import com.wiryatech.mynotesapp.helper.MappingHelper
+import androidx.appcompat.app.AppCompatActivity
+import com.wiryatech.consumerapp.db.DatabaseContract
+import com.wiryatech.consumerapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import com.wiryatech.consumerapp.db.DatabaseContract.NoteColumns.Companion.DATE
+import com.wiryatech.consumerapp.entity.Note
+import com.wiryatech.consumerapp.helper.MappingHelper
 import kotlinx.android.synthetic.main.activity_note_add_update.*
 import java.text.SimpleDateFormat
 import java.util.*

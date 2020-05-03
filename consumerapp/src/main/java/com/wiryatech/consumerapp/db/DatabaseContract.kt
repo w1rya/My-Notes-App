@@ -1,4 +1,4 @@
-package com.wiryatech.mynotesapp.db
+package com.wiryatech.consumerapp.db
 
 import android.net.Uri
 import android.provider.BaseColumns
